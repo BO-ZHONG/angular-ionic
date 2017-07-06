@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<ion-view>
+<ion-content>
+    <ion-slide-box >
+        <ion-slide>
+            <div class="box"><img  src="./img/goods_index/picmmexport1494738867466.jpeg" alt="1" class="pics"></div>
+        </ion-slide>
+    </ion-slide-box>
+    <div class="details">
+        <div class="details_title clearfix">
+            <h4>{{views.datas.title}}</h4>
+            <a href="#">
+                <i class="ion-android-share-alt"></i>
+                分享
+            </a>
+        </div>
+        <div class="details_price">
+            <b>{{views.datas.price}} <u>{{views.datas.details_price}}</u></b>
+            <div>
+                <span>快递:{{views.datas.details_way}}</span>
+                <span>销量:{{views.datas.details_num}}件</span>
+            </div>
+        </div>
+        <div class="details_explain">
+                <span>
+                    <i class="ion-ios-checkmark-outline"></i>
+                    正品保证
+                </span>
+            <span>
+                     <i class="ion-ios-checkmark-outline"></i>
+                    7天退换
+                </span>
+            <span>
+                     <i class="ion-ios-checkmark-outline"></i>
+                    担保交易
+                </span>
+        </div>
+    </div>
+    <div class="details_select" ng-click="openPopover($event)">
+        <span >请选择交易数量</span>
+    </div>
+</ion-content>
+</ion-view>

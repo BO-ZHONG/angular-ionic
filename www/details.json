@@ -1,0 +1,84 @@
+{
+  "data":[
+
+            [ {"pic":"./img/pic/1.jpg",
+              "title":"新系列，新风尚的10086z",
+              "price":"￥500",
+              "details_pics":[{"src":""},{"src":""},{"src":""},{"src":""},{"src":""},{"src":""},{"src":""},{"src":""},{"src":""},{"src":""}],
+              "details_price":"￥799",
+              "details_way":"包邮",
+              "details_num":"54,660",
+              "details_arameter":[{"name":"性别","funciton":"男女通用"},{"name":"帮面材质","funciton":"反毛皮"},{"name":"外底材料","funciton":"防滑橡胶"},{"name":"适合路面","funciton":"小道，公路，跑道"},{"name":"功能","funciton":"防滑，耐磨"},{"name":"闭合方式","funciton":"系带"},{"name":"运动系列","funciton":"生活系列"}],
+              "details_assess":{"all":{"A":[{"src":"./img/pic/1.jpg","time":"2016-11-30   09:35","text":"这东西真不错，啦啦啦啦","start":"我是五颗星"},{"src":"./img/pic/1.jpg","time":"2016-11-30   09:35","text":"这东西真心不错，黑乎乎啦啦","start":"我是五颗星"}],"B":[{"src":"./img/pic/1.jpg","time":"2016-12-10&nbsp;19:35","text":"这东西还行，啦啦啦啦","start":"我是三颗星"}],"C":[{"src":"./img/pic/1.jpg","time":"2017-1-07&nbsp;09:35","text":"这东西不行，啦啦啦啦","start":"我是一颗星"}]}},
+              "details_spec":[36,36.5,37,37.5,38,38.5,39,39.5,40,40.5,41,41.5,42,42.5,43,43.5,44,45]
+               },
+
+              {"pic":"./img/pic/2.jpeg",
+                "title":"新系列，新风尚的10086x",
+                "price":"￥520",
+                "details_pics":"",
+                "details_price":"￥888",
+                "details_way":"包邮",
+                "details_num":"4,000",
+                "details_arameter":[{"name":"性别","funciton":"男女通用"},{"name":"帮面材质","funciton":"反毛皮"},{"name":"外底材料","funciton":"防滑橡胶"},{"name":"适合路面","funciton":"小道，公路，跑道"},{"name":"功能","funciton":"防滑，耐磨"},{"name":"闭合方式","funciton":"系带"},{"name":"运动系列","funciton":"生活系列"}],
+                "details_assess":{"all":{"A":[{"src":"./img/pic/1.jpg","time":"2016-11-30   09:35","text":"这东西真不错，啦啦啦啦","start":"我是五颗星"}],"B":[{"src":"./img/pic/1.jpg","time":"2016-12-10&nbsp;19:35","text":"这东西还行，啦啦啦啦","start":"我是三颗星"}],"C":[{"src":"./img/pic/1.jpg","time":"2017-1-07&nbsp;09:35","text":"这东西不行，啦啦啦啦","start":"我是一颗星"}]}},
+                "details_spec":[36,36.5,37,37.5,38,38.5,39,39.5,40,40.5,41,41.5,42,42.5,43,43.5,44,45]
+              }
+            ],
+
+            [ {"pic":"./img/pic/1.jpg",
+              "title":"新系列，新风尚的10086L",
+              "price":"￥621",
+              "details_pics":"",
+              "details_price":"￥999",
+              "details_way":"包邮",
+              "details_num":"1,000",
+              "details_arameter":[{"name":"性别","funciton":"男女通用"},{"name":"帮面材质","funciton":"反毛皮"},{"name":"外底材料","funciton":"防滑橡胶"},{"name":"适合路面","funciton":"小道，公路，跑道"},{"name":"功能","funciton":"防滑，耐磨"},{"name":"闭合方式","funciton":"系带"},{"name":"运动系列","funciton":"生活系列"}],
+              "details_assess":{"all":{"A":[{"src":"./img/pic/1.jpg","time":"2016-11-30   09:35","text":"这东西真不错，啦啦啦啦","start":"我是五颗星"}],"B":[{"src":"./img/pic/1.jpg","time":"2016-12-10&nbsp;19:35","text":"这东西还行，啦啦啦啦","start":"我是三颗星"}],"C":[{"src":"./img/pic/1.jpg","time":"2017-1-07&nbsp;09:35","text":"这东西不行，啦啦啦啦","start":"我是一颗星"}]}},
+              "details_spec":[36,36.5,37,37.5,38,38.5,39,39.5,40,40.5,41,41.5,42,42.5,43,43.5,44,45]
+            },
+
+              {"pic":"./img/pic/2.jpeg",
+                "title":"新系列，新风尚的10086D",
+                "price":"￥540",
+                "details_pics":"",
+                "details_price":"￥600",
+                "details_way":"包邮",
+                "details_num":"500",
+                "details_arameter":[{"name":"性别","funciton":"男女通用"},{"name":"帮面材质","funciton":"反毛皮"},{"name":"外底材料","funciton":"防滑橡胶"},{"name":"适合路面","funciton":"小道，公路，跑道"},{"name":"功能","funciton":"防滑，耐磨"},{"name":"闭合方式","funciton":"系带"},{"name":"运动系列","funciton":"生活系列"}],
+                "details_assess":{"all":{"A":[{"src":"./img/pic/1.jpg","time":"2016-11-30   09:35","text":"这东西真不错，啦啦啦啦","start":"我是五颗星"}],"B":[{"src":"./img/pic/1.jpg","time":"2016-12-10&nbsp;19:35","text":"这东西还行，啦啦啦啦","start":"我是三颗星"}],"C":[{"src":"./img/pic/1.jpg","time":"2017-1-07&nbsp;09:35","text":"这东西不行，啦啦啦啦","start":"我是一颗星"}]}},
+                "details_spec":[36,36.5,37,37.5,38,38.5,39,39.5,40,40.5,41,41.5,42,42.5,43,43.5,44,45]
+              }
+            ],
+            [ {"pic":"./img/pic/1.jpg",
+              "title":"新系列，新风尚的10086A",
+              "price":"￥320",
+              "details_pics":"",
+              "details_price":"￥500",
+              "details_way":"包邮",
+              "details_num":"999",
+              "details_arameter":[{"name":"性别","funciton":"男女通用"},{"name":"帮面材质","funciton":"反毛皮"},{"name":"外底材料","funciton":"防滑橡胶"},{"name":"适合路面","funciton":"小道，公路，跑道"},{"name":"功能","funciton":"防滑，耐磨"},{"name":"闭合方式","funciton":"系带"},{"name":"运动系列","funciton":"生活系列"}],
+              "details_assess":{"all":{"A":[{"src":"./img/pic/1.jpg","time":"2016-11-30   09:35","text":"这东西真不错，啦啦啦啦","start":"我是五颗星"}],"B":[{"src":"./img/pic/1.jpg","time":"2016-12-10&nbsp;19:35","text":"这东西还行，啦啦啦啦","start":"我是三颗星"}],"C":[{"src":"./img/pic/1.jpg","time":"2017-1-07&nbsp;09:35","text":"这东西不行，啦啦啦啦","start":"我是一颗星"}]}},
+              "details_spec":[36,36.5,37,37.5,38,38.5,39,39.5,40,40.5,41,41.5,42,42.5,43,43.5,44,45]
+            },
+
+              {"pic":"./img/pic/2.jpeg",
+                "title":"新系列，新风尚的10086M",
+                "price":"￥150",
+                "details_pics":"",
+                "details_price":"￥200",
+                "details_way":"包邮",
+                "details_num":"3,332",
+                "details_arameter":[{"name":"性别","funciton":"男女通用"},{"name":"帮面材质","funciton":"反毛皮"},{"name":"外底材料","funciton":"防滑橡胶"},{"name":"适合路面","funciton":"小道，公路，跑道"},{"name":"功能","funciton":"防滑，耐磨"},{"name":"闭合方式","funciton":"系带"},{"name":"运动系列","funciton":"生活系列"}],
+                "details_assess":{"all":{"A":[{"src":"./img/pic/1.jpg","time":"2016-11-30   09:35","text":"这东西真不错，啦啦啦啦","start":"我是五颗星"}],"B":[{"src":"./img/pic/1.jpg","time":"2016-12-10&nbsp;19:35","text":"这东西还行，啦啦啦啦","start":"我是三颗星"}],"C":[{"src":"./img/pic/1.jpg","time":"2017-1-07&nbsp;09:35","text":"这东西不行，啦啦啦啦","start":"我是一颗星"}]}},
+                "details_spec":[36,36.5,37,37.5,38,38.5,39,39.5,40,40.5,41,41.5,42,42.5,43,43.5,44,45]
+              }
+            ]
+
+
+  ]
+}
+
+
+
+

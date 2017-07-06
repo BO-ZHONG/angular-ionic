@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<ion-view>
+    <ion-content>
+        <ion-slide-box does-continue="true" auto-play="true" slide-interval="2000">
+            <ion-slide ng-repeat="srcs in views.listPic track by $index" >
+                <div class="box">
+                    <img ng-src="{{srcs.src}}"  width="100%" height="150px" alt="1"/>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <ion-list>
+            <ion-item class="row myList" ng-repeat="datas in views.listDatas">
+                <div class="col col-50" ng-repeat="data in datas" ng-click="views.change(data)">
+                        <div class="clearfix">
+                            <img ng-src="{{data.pic}}" alt="1" width="100px" height="100px" />
+                            <h2>{{data.title}}</h2>
+                            <span></span>
+                            <span>{{data.price}}</span>
+                            <a class="button button-small button-assertive">购买</a>
+                        </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

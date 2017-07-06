@@ -1,0 +1,15 @@
+
+<ion-view>
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="data in view" class="evaluate">
+                <div >
+                    <img ng-src="{{data.src}}" alt="1"/>
+                    <time>{{data.time}}</time>
+                    <span>{{data.start}}</span>
+                    <p>{{data.text}}</p>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

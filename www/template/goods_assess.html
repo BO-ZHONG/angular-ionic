@@ -1,0 +1,24 @@
+
+<ion-view>
+     <div>
+            <ion-tabs class="tabs-top tabs-striped">
+                <ion-tab title="全部" href="#/list/assess/all" on-select="views.all()">
+                    <ion-nav-view name="evaluate-page"></ion-nav-view>
+                </ion-tab>
+                <ion-tab title="好评" href="#/list/assess/A" on-select="views.A()">
+                    <ion-nav-view name="evaluate-pageA"></ion-nav-view>
+                </ion-tab>
+                <ion-tab title="中评" href="#/list/assess/B" on-select="views.B()">
+                    <ion-nav-view name="evaluate-pageB"></ion-nav-view>
+                </ion-tab>
+                <ion-tab title="差评" href="#/list/assess/C" on-select="views.C()">
+                    <ion-nav-view name="evaluate-pageC"></ion-nav-view>
+                </ion-tab>
+          </ion-tabs>
+     </div>
+
+   <!--<ion-content>-->
+       <!--<p>233</p>-->
+   <!--</ion-content>-->
+
+</ion-view>

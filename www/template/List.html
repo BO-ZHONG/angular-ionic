@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<ion-view >
+    <ion-nav-bar class="bar-positive">
+        <ion-nav-buttons>
+            <a class="button button-clear" href="#/home/slide">
+                <i class="ion-chevron-left"></i>
+            </a>
+            <div class="button-bar">
+                <a class="button" href="#/list/index">商品</a>
+                <a class="button" href="#/list/details">详情</a>
+                <a class="button" href="#/list/arameter">参数</a>
+                <a class="button" href="#/list/assess/all">评价</a>
+            </div>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="list-goods"></ion-nav-view>
+    <ion-footer-bar class=" myBar"  align-title="center">
+         <div class="row">
+             <span class="col col-10">
+                 <i class="ion-ios-people-outline"></i>
+                 客服
+             </span>
+             <span class="col col-10">
+                 <i class="ion-ios-home-outline"></i>
+                 店铺
+             </span>
+             <span class="col col-20" ng-click="goCart()">
+                 <i class="ion-ios-cart-outline" ></i>
+                 购物车
+             </span>
+             <span class="col" ng-click="openPopover($event,1)">加入购物车</span>
+             <span class="col" ng-click="openPopover($event,2)">立即购买</span>
+         </div>
+    </ion-footer-bar>
+</ion-view>

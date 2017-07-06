@@ -1,0 +1,50 @@
+<ion-header-bar>
+  <div class="buttons button-clear" ng-click="hui()">
+    <button class="button ion-chevron-left">
+    </button>
+  </div>
+   <h1 class="title">确认订单</h1>
+</ion-header-bar>
+<ion-content>
+  <div class="order_div1" ng-click="site()">
+    <i class="ion-ios-location-outline" ></i>
+    <div >
+      <p>{{sites}}</p>
+    </div>
+  </div>
+  <ion-list class="cart_list">
+    <ion-item ng-repeat="data in cartDatass">
+      <img ng-src="{{data[1]}}" alt="2"/>
+      <h3>{{data[2]}}</h3>
+      <span>{{data[0]}}</span>
+      <em>{{data[3]}}</em>
+      <i>{{data[4]}}</i>
+    </ion-item>
+  </ion-list>
+  <div class="xian">
+    <p>
+      共<em>{{cartDatass.length}}</em>件商品 合计：<em>￥{{allPrices}}</em>
+    </p>
+  </div>
+  <div class="liuyang">
+    <input type="text" placeholder="选填：买家留言（50字以内）">
+  </div>
+  <div class="heji">
+    <div>
+      <em>商品小计</em>
+      <i>￥{{allPrices}}</i>
+    </div>
+    <div>
+      <em>运费</em>
+      <i>￥0.00</i>
+    </div>
+  </div>
+</ion-content>
+<ion-footer-bar class="bar-footer myfooter">
+  <div>
+    <span>
+               需付：<em>￥{{allPrices}}</em>
+    </span>
+  </div>
+  <button class="button button-assertive" >结算</button>
+</ion-footer-bar>

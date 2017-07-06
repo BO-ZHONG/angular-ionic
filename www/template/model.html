@@ -1,0 +1,30 @@
+<ion-popover-view id="mypopover" style="height: 300px;">
+        <div class="model_style">
+            <div class="model_div1">
+                <div class="model_pic">
+                    <img ng-src="{{views.datas.pic}}" alt="2" width="80px" height="80px"/>
+                </div>
+                <div class="model_text">
+                    <span >{{views.datas.price}}</span>
+                    <span >请选择规格</span>
+                </div>
+                <a href="" ng-click="closePopover()">
+                    <i class="ion-ios-close-outline"></i>
+                </a>
+            </div>
+            <ion-list class="myradio">
+                <ion-radio ng-repeat="spec in views.datas.details_spec" value="{{spec}}" ng-click="views.selects($event)">{{spec}}</ion-radio>
+            </ion-list>
+            <div class="modal_num clearfix">
+                数量：
+                <div style="width: 100px;display: inline-block;float: right;height: 25px;">
+                    <cartnum></cartnum>
+                </div>
+            </div>
+        </div>
+    <ion-footer-bar style="padding: 0;">
+        <button class="button button-full button-assertive" style="margin: 0" ng-click="views.cart_data(views.datas.pic,views.datas.title,views.datas.price)">
+            确定
+        </button>
+    </ion-footer-bar>
+</ion-popover-view>
